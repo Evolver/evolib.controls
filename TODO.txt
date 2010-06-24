@@ -1,0 +1,2 @@
+
+- Implement internationalization in OverlayOptionControl.
