@@ -35,6 +35,9 @@ file_put_contents( __DIR__ .'/evolib.controls.js',
   lib_file( 'controls.OptionControl.js') ."\n\n" .
   lib_file( 'controls.DropdownOption.js') ."\n\n" .
   lib_file( 'controls.DropdownOptionControl.js') ."\n\n" .
+  lib_file( 'controls.OverlayAlphabet.js') ."\n\n" .
+  lib_file( 'controls.OverlayOption.js') ."\n\n" .
+  lib_file( 'controls.OverlayOptionControl.js') ."\n\n" .
   lib_file( 'controls.StringControl.js') ."\n\n" .
   lib_file( 'controls.CheckboxControl.js') ."\n\n" .
   lib_file( 'controls.Form.js') ."\n\n" .
