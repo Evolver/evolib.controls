@@ -40,6 +40,10 @@ file_put_contents( __DIR__ .'/evolib.controls.js',
   lib_file( 'controls.OverlayOptionControl.js') ."\n\n" .
   lib_file( 'controls.StringControl.js') ."\n\n" .
   lib_file( 'controls.CheckboxControl.js') ."\n\n" .
+  lib_file( 'controls.MapPoint.js') ."\n\n" .
+  lib_file( 'controls.MapControl.js') ."\n\n" .
+  lib_file( 'controls.GoogleMapPoint.js') ."\n\n" .
+  lib_file( 'controls.GoogleMapControl.js') ."\n\n" .
   lib_file( 'controls.Form.js') ."\n\n" .
   lib_file( 'controls.js')
 );
