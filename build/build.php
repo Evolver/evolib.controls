@@ -6,6 +6,9 @@
 // where to take source files from
 define( 'SOURCE_ROOT', dirname( __DIR__) .'/');
 
+// UI language
+define( 'UI_LANG', 'en');
+
 // compile library file
 function lib_file( $path) {
   return file_get_contents( SOURCE_ROOT .'lib/' .$path);
@@ -38,12 +41,15 @@ file_put_contents( __DIR__ .'/evolib.controls.js',
   lib_file( 'controls.OverlayAlphabet.js') ."\n\n" .
   lib_file( 'controls.OverlayOption.js') ."\n\n" .
   lib_file( 'controls.OverlayOptionControl.js') ."\n\n" .
+  lib_file( 'controls.OverlayOptionControl.' .UI_LANG .'.js') ."\n\n" .
   lib_file( 'controls.StringControl.js') ."\n\n" .
   lib_file( 'controls.CheckboxControl.js') ."\n\n" .
   lib_file( 'controls.MapPoint.js') ."\n\n" .
   lib_file( 'controls.MapControl.js') ."\n\n" .
   lib_file( 'controls.GoogleMapPoint.js') ."\n\n" .
+  lib_file( 'controls.GoogleMapPoint.' .UI_LANG .'.js') ."\n\n" .
   lib_file( 'controls.GoogleMapControl.js') ."\n\n" .
+  lib_file( 'controls.GoogleMapControl.' .UI_LANG .'.js') ."\n\n" .
   lib_file( 'controls.Form.js') ."\n\n" .
   lib_file( 'controls.js')
 );
